@@ -26,8 +26,8 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="http://localhost/Hyper-team1/public/hyperteam#">
-                                        <img src="img/logo2.png" alt="Hypeer Team">
+                                    <a href="http://localhost/hyper_team/public/hyperteam">
+                                        <img src="img/logo1.png" alt="Hypeer Team">
                                     </a>
                                 </div>
                             </div>
@@ -35,12 +35,12 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="http://localhost/Hyper-team1/public/hyperteam#">Home</a></li>
+                                            <li><a class="active" href="http://localhost/hyper_team/public/hyperteam#">Home</a></li>
                                             <li><a href="#">Protfolio <i class="ti-angle-down"></i></a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">About Us <i class="ti-angle-down"></i></a>
                                             </li>
-                                            <li><a href="http://localhost/Hyper-team1/public/hyperteam/contactus">Contact</a></li>
+                                            <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -48,7 +48,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="book_btn d-none d-lg-block">
-                                        <a  href="http://localhost/Hyper-team1/public/hyperteam/contactus">CONTACT US</a>
+                                        <a  href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
         <div class="slider_active owl-carousel">
             <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2"><h1 style="font-size: 130px;
 color: #e9b422;
-margin-left: 600px; margin-top: -70px;">Hello</h1><h1 class="text-slide2">Welcome To Our WebSite...</h1></p></div>
+margin-left: 600px; margin-top: -70px;">Hello</h1><h1 class="text-slide2 col-12">Welcome To Our WebSite...</h1></p></div>
 
             <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2"><h1 style="font-size: 100px;
 color: #e9b422;
@@ -225,7 +225,7 @@ margin-left: 400px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
                   <div class="about">
                      <p>our team member student at university of tripoli we study together & word together our team is the best at web.
                      </p>
-                     <a href="#">CONTACT US</a>
+                     <a href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
                   </div>
                </div>
                <div class="about-section-col">
@@ -270,7 +270,7 @@ margin-left: 400px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
 
            <div class="footer-menu-one">
               <ul>
-                 <li><a href="">Home</a></li>
+                 <li><a href="http://localhost/hyper_team/public/hyperteam#">Home</a></li>
                  <li><a href="">Protfolio</a></li>
                  <li><a href="">Our Team</a></li>
               </ul>
@@ -279,13 +279,13 @@ margin-left: 400px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
            <div class="footer-menu-two">
               <ul>
                  <li><a href="">Services</a></li>
-                 <li><a href="http://localhost/Hyper-team1/public/hyperteam/contactus">Contact Us</a></li>
+                 <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact Us</a></li>
               </ul>
            </div>
 
     </div>
     <div class="footer-bottom">
-       <p>Designed by:<a href="http://localhost/Hyper-team1/public/hyperteam#">Hyper Team</a></p>
+       <p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam#">Hyper Team</a></p>
     </div>
  <!-- Footer End -->
  <!-- {{ asset('js/jqurey*3.4.1.min.js') }} -->
