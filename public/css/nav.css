@@ -1,0 +1,334 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.img {
+    max-width: 100%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a,
+.button {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a:focus,
+.button:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.overlay2 {
+    position: relative;
+    z-index: 0;
+}
+
+.overlay2::before {
+    position: absolute;
+    content: "";
+    background-color: #001D38;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.header-area {
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 767px) {
+    .header-area {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding-top: 0;
+    }
+}
+
+.header-area .main-header-area {
+    padding: 18px 0;
+    background: #e9b422;
+    background: transparent;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area .main-header-area .Appointment .search_button {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header-area .main-header-area .Appointment .search_button {
+        margin-right: 15px;
+    }
+}
+
+.header-area .main-header-area .Appointment .search_button a i {
+    color: #E8E8E8;
+}
+
+.header-area .main-header-area .Appointment .socail_links ul li {
+    display: inline-block;
+}
+
+.header-area .main-header-area .Appointment .socail_links ul li a {
+    color: #A8A7A0;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.header-area .main-header-area .Appointment .socail_links ul li a:hover {
+    color: #fff;
+}
+
+.header-area .main-header-area .Appointment .book_btn {
+    margin-left: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area .main-header-area .Appointment .book_btn {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header-area .main-header-area .Appointment .book_btn {
+        margin-left: 0;
+    }
+}
+
+.header-area .main-header-area .Appointment .book_btn a {
+    background: #e9b422;
+    background: -moz-linear-gradient(left, #e9b422 0%, #f1d864 100%);
+    background: -webkit-linear-gradient(left, #cbd44b 0%, #f3dc74 100%);
+    background: linear-gradient(to right, #e9b422 0%, #f7e181 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff', GradientType=1);
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: black;
+    -webkit-border-radius: 30px;
+    margin-left: 50px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area .main-header-area .Appointment .book_btn a {
+        padding: 12px 20px;
+    }
+}
+
+.header-area .main-header-area .Appointment .book_btn a:hover {
+    background: -moz-linear-gradient(right, #f8df6e 0%, #e9b422 100%);
+    background: -webkit-linear-gradient(right, #f3df87 0%, #e9b422 100%);
+    background: linear-gradient(to left, #fde98e 0%, #e9b422 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f50181f5', endColorstr='#f55db2ff', GradientType=0);
+    color: #fff;
+    border: 1px solid #fde98e;
+}
+
+.header-area .main-header-area .main-menu {
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.header-area .main-header-area .main-menu ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+}
+
+.header-area .main-header-area .main-menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.header-area .main-header-area .main-menu ul li a::before {
+    position: absolute;
+    content: "";
+    background: #e9b422;
+    width: 100%;
+    height: 3px;
+    bottom: -33px;
+    left: 0;
+    opacity: 0;
+    transform: scaleX(0);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.header-area .main-header-area .main-menu ul li a.active::before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.header-area .main-header-area .main-menu ul li .submenu li {
+    display: block;
+}
+
+.header-area .main-header-area .main-menu ul li:hover>a::before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.header-area .main-header-area.sticky .main-menu {
+    padding: 0;
+}
+
+.header-area .main-header-area.sticky .header_bottom_border {
+    border-bottom: none;
+}
+
+.header-area .main-header-area.sticky .header_bottom_border.white_border {
+    border-bottom: none !important;
+}
+
+.header-area .main-header-area.sticky ul li a::before {
+    position: absolute;
+    content: "";
+    background: #5DB2FF;
+    width: 100%;
+    height: 3px;
+    bottom: -27px;
+    left: 0;
+    opacity: 0;
+    transform: scaleX(0);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.header-area .header-top_area .social_media_links a {
+    font-size: 15px;
+    color: #C7C7C7;
+    margin-right: 12px;
+}
+
+.header-area .header-top_area .social_media_links a:hover {
+    color: #5DB2FF;
+}
+
+.header-area .header-top_area .header_left p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.header-area .header-top_area .short_contact_list {
+    text-align: right;
+}
+
+.header-area .header-top_area .short_contact_list ul li {
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .header-area .header-top_area .short_contact_list ul li a {
+        margin-left: 0;
+        margin: 0 5px;
+    }
+}
+
+.header-area .header-top_area .short_contact_list ul li a i {
+    color: #5DB2FF;
+    margin-right: 7px;
+}
+
+.slider_bg_1 {
+    background-image: url(../img/sl5.jpg);
+}
+
+.slider_bg_2 {
+    background-image: url(../img/sl4.jpg);
+}
+
+.slider_bg_3 {
+    background-image: url(../img/sl3.jpg);
+}
+
+.slider_bg_4 {
+    background-image: url(../img/sl6.jpg);
+}
+
+.slider_area .single_slider {
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slider_area .single_slider .slider_text h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 76px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.slider_area .single_slider .slider_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #D5D5D5;
+    margin-bottom: 24px;
+    margin-top: 10px;
+}
+
+.mobile_menu {
+    color: #e9b422 !important;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-bottom: -20px;
+}
