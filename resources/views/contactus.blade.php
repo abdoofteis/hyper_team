@@ -18,7 +18,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="http://localhost/Hyper-team1/public/hyperteam">
+                                    <a href="http://localhost/hyper_team/public/hyperteam">
                                         <img src="{{asset('img/logo2.png')}}" alt="Hypeer Team">
                                     </a>
                                 </div>
@@ -27,12 +27,12 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="http://localhost/Hyper-team1/public/hyperteam">Home</a></li>
+                                            <li><a class="active" href="http://localhost/hyper_team/public/hyperteam">Home</a></li>
                                             <li><a href="#">Protfolio <i class="ti-angle-down"></i></a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">About Us <i class="ti-angle-down"></i></a>
                                             </li>
-                                            <li><a href="http://localhost/Hyper-team1/public/hyperteam/contactus">Contact</a></li>
+                                            <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -40,7 +40,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="book_btn d-none d-lg-block">
-                                        <a  href="http://localhost/Hyper-team1/public/hyperteam/contactus">CONTACT US</a>
+                                        <a  href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,26 +65,27 @@
         </div>
         <div class="container mb-5 ">
                
-            <form action="">
-                
+            <form action="{{ url('/contactus') }}" method="post">
+            <!--  -->
+                @csrf
               <div class="row form-group">
               <label class="col-lg-2 col-md-3 col-sm-12 text-md-right text-sm-center">Your Name</label>
-              <input class="col-lg-7 col-md-9 col-sm-12 form-control "type="text" placeholder="Ahmed">
+              <input class="col-lg-7 col-md-9 col-sm-12 form-control " name="name" type="text" placeholder="Ahmed">
               </div>
               
                <div class="row form-group">
               <label class="col-lg-2 col-md-3 col-sm-12 text-md-right text-sm-center">E-Mail</label>
-              <input class="col-lg-7 col-md-9 col-sm-12 form-control "type="text" placeholder="Example@example.com">
+              <input class="col-lg-7 col-md-9 col-sm-12 form-control "name="email" type="text" placeholder="Example@example.com">
               </div>
               
                <div class="row form-group">
               <label class="col-lg-2 col-md-3 col-sm-12 text-md-right text-sm-center">Phone Number</label>
-              <input class="col-lg-7 col-md-9 col-sm-12 form-control "type="text" placeholder="0912345678">
+              <input class="col-lg-7 col-md-9 col-sm-12 form-control " name="phone_number"type="text" placeholder="0912345678">
               </div>
               
              <div class="row">
             <label class="col-lg-2 col-md-3 col-sm-12 text-md-right text-sm-center ">Choose</label>
-            <select class="col-lg-7 col-md-9 col-sm-12 form-control  custom-select " >
+            <select class="col-lg-7 col-md-9 col-sm-12 form-control  custom-select "name="subject" >
                 <option>WebSite</option>
                 <option>App</option>
                 <option>Website & App</option>
@@ -95,10 +96,11 @@
               
               <div class="row form-group mt-3 mb-3">
           <label class= "col-lg-2 col-md-3 col-sm-12 text-md-right text-sm-center">Message</label>
-          <textarea class="col-lg-7 col-md-9 col-sm-12 form-control" rows="3"placeholder="Your Message" ></textarea>
+          <textarea class="col-lg-7 col-md-9 col-sm-12 form-control" rows="3"placeholder="Your Message" name="description"></textarea>
         </div>
               
-                <div class="btn">Send</div>
+                <!-- <div class="btn" type="submit">Send</div> -->
+                <input type="submit" class="btn" value="Send">
             </div>
               
             </form>
@@ -126,13 +128,13 @@
     <div class="footer-menu-two">
        <ul>
           <li><a href="">Services</a></li>
-          <li><a href="http://localhost/Hyper-team1/public/hyperteam/contactus">Contact Us</a></li>
+          <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact Us</a></li>
        </ul>
     </div>
 
 </div>
 <div class="footer-bottom">
-<p>Designed by:<a href="http://localhost/Hyper-team1/public/hyperteam">Hyper Team</a></p>
+<p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam">Hyper Team</a></p>
 </div>
 <!-- Footer End -->
 
