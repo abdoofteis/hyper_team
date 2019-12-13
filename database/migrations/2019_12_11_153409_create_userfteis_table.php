@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateContsTable extends Migration
+class CreateUserfteisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateContsTable extends Migration
      */
     public function up()
     {
-        Schema::create('conts', function (Blueprint $table) {
+        Schema::create('userfteis', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->text('email');
@@ -21,7 +21,9 @@ class CreateContsTable extends Migration
             $table->text('subject');
             $table->longText('description')->nullable();
             $table->timestamps();
+            
         });
+        
     }
 
     /**
@@ -31,6 +33,6 @@ class CreateContsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('conts');
+        Schema::dropIfExists('userfteis');
     }
 }
