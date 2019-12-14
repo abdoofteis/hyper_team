@@ -134,11 +134,7 @@
 
 </div>
 <div class="footer-bottom">
-<<<<<<< HEAD
 <p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam">Hyper Team</a></p>
-=======
-<p>Designed by:<a href="http://localhost/Hyper_team1/public/hyperteam">Hyper Team</a></p>
->>>>>>> 103587aa85371c33796c181e09a4ac5a5dc4f9dd
 </div>
 <!-- Footer End -->
 
