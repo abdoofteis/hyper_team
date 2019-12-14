@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{ asset('css/contact-us.css') }}">
+<link rel="stylesheet" href="{{ asset('css/nav.css') }}">
 
     </head>
     <body style ="background-image: url('{{ asset('img/bg.jpg') }}');">
@@ -19,7 +20,7 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="http://localhost/hyper_team/public/hyperteam">
-                                        <img src="{{asset('img/logo2.png')}}" alt="Hypeer Team">
+                                        <img src="{{asset('img/logo1.png')}}" alt="Hypeer Team">
                                     </a>
                                 </div>
                             </div>
@@ -27,12 +28,12 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="http://localhost/hyper_team/public/hyperteam">Home</a></li>
+                                            <li><a href="http://localhost/hyper_team/public/hyperteam">Home</a></li>
                                             <li><a href="#">Protfolio <i class="ti-angle-down"></i></a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">About Us <i class="ti-angle-down"></i></a>
                                             </li>
-                                            <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact</a></li>
+                                            <li><a class="active" href="http://localhost/hyper_team/public/hyperteam/contactus">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
