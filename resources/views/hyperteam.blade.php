@@ -67,22 +67,22 @@
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2"><h1 style="font-size: 130px;
+            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 130px;
 color: #e9b422;
-margin-left: 600px; margin-top: -70px;">Hello</h1><h1 class="text-slide2 col-12">Welcome To Our WebSite...</h1></p></div>
+margin-left: -90px; margin-top: -70px;">Hello</h1><h1 class="text-slide2 col-12">Welcome To Our WebSite...</h1></p></div></div>
 
-            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2"><h1 style="font-size: 100px;
+            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 100px;
 color: #e9b422;
-margin-left: 580px; margin-top: -80px;">We Are <h1 class="text-slide2">Web Developers...</h1></h1></div>
+margin-left: -90px; margin-top: -70px;">We Are <h1 class="text-slide2 col-12">Web Developers...</h1></h1></div></div>
 
-            <div class="single_slider  d-flex align-items-center slider_bg_3 overlay2"><h1 style="font-size: 150px;
+            <div class="single_slider  d-flex align-items-center slider_bg_3 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 150px;
 color: #e9b422;
-margin-left: 750px; margin-top: -80px;">& <h1 style="color: white;
-font-size: 50px;margin-top: 150px;margin-left: -200px;">Web Designers...</h1></h1></div>
+margin-left: -90px; margin-top: -70px;">& <h1 style="color: white;
+font-size: 50px;margin-top: 10px;margin-left: -10px;">Web Designers...</h1></h1></div></div>
 
-            <div class="single_slider  d-flex align-items-center slider_bg_4 overlay2"><h1 style="font-size: 80px;
+            <div class="single_slider  d-flex align-items-center slider_bg_4 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 80px;
 color: #e9b422;
-margin-left: 400px; margin-top: -70px;">We Are Always Ready <h1 class="text-slide2">To Serve You...</h1></h1></div>
+margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slide2">To Serve You...</h1></h1></div></div>
 
            
         </div>

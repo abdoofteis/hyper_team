@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="{{ asset('css/nav.css') }}">
 
     </head>
-    <body style ="background-image: url('{{ asset('img/bg.jpg') }}');">
+    <body >
           <!-- header start -->
     
   <header>
@@ -59,8 +59,9 @@
 
 
 
-    <div class="wrapper">
+    <div class="wrapper" style ="background-image: url('{{ asset('img/bg.jpg') }}');">
         <div class="content">
+            
                 <h2>CONTACT US</h2>
                 <p>How We Can Help You Sir...</p>
         </div>
@@ -71,7 +72,7 @@
                 @csrf
               <div class="row form-group">
               <label class="col-lg-2 col-md-3 col-sm-12 text-md-right text-sm-center">Your Name</label>
-              <input class="col-lg-7 col-md-9 col-sm-12 form-control " name="name" type="text" placeholder="Ahmed">
+              <input class="col-lg-7 col-md-9 col-sm-12 form-control " name="name" type="text" placeholder="Your Name">
               </div>
               
                <div class="row form-group">
@@ -107,6 +108,9 @@
             </form>
           </div>
         </div>
+
+
+        
  <!-- Footer Start -->
  <div class="footer-main-div">
     <div class="footer-social-icons">
