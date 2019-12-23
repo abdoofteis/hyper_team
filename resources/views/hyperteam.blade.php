@@ -47,7 +47,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
-                                    <div class="book_btn d-none d-lg-block">
+                                    <div class="book_btn d-none d-lg-block" id="navigation">
                                         <a  href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
                                     </div>
                                 </div>
@@ -91,15 +91,8 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
 
    <!-- header end -->
 
-    <!-- text slide start-->
-     <div class="wrapper">
-        <h2><b>We Are </b><span class="change"></span></h2>
-     </div>
-     <br></br>
-   <!-- text slide end -->
-
       <!-- protfolio div start -->
-       <h1 class="prot"><b>PROTFOLIO</b></h1>
+       <h1 class="pro"><b>PROTFOLIO</b></h1>
       <!-- slide start -->
    <div class="cycle-slideshow pb-2"
     data-cycle-speed="600"
@@ -162,7 +155,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
            <div class="card-wrapper">
             <div class="card">
                <img src="img/small2.jpg" alt="Malek Alnapouli" class="card-img">
-               <img src="img/malek1.jpg" alt="profile img" class="profile-img">
+               <img src="img/malek2.jpg" alt="profile img" class="profile-img">
                <h1>Malek AL Napouli</h1>
                <p class="job-title">Lead Designer</p>
                <p class="about">Hello people I'm Malek Study at Tripoli University Fuctily of sience I Work as web Designer & I'm good of it </p>
@@ -222,7 +215,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
             <div class="border"></div>
             <div class="about-section-row">
                <div class="about-section-col">
-                  <div class="about">
+                  <div class="about" id="navigation">
                      <p>our team member student at university of tripoli we study together & word together our team is the best at web.
                      </p>
                      <a href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
@@ -268,7 +261,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
                </ul>
            </div>
 
-           <div class="footer-menu-one">
+           <div class="footer-menu-one" id="navigation">
               <ul>
                  <li><a href="http://localhost/hyper_team/public/hyperteam#">Home</a></li>
                  <li><a href="">Protfolio</a></li>
@@ -276,7 +269,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
               </ul>
            </div>
         
-           <div class="footer-menu-two">
+           <div class="footer-menu-two" id="navigation">
               <ul>
                  <li><a href="">Services</a></li>
                  <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact Us</a></li>
@@ -284,7 +277,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
            </div>
 
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom" id="navigation">
        <p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam#">Hyper Team</a></p>
     </div>
  <!-- Footer End -->

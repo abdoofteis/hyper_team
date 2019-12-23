@@ -14,6 +14,14 @@ class ContactController extends Controller
 
    public function store()
    {
+
+    request()->validate([
+        'name' => 'required',
+        'email' => 'required',
+        'phone_number' => 'required'
+
+    ]);
+
        $data= new userfteis;
        $data->name =request('name');
        $data->email= request('email');
@@ -21,7 +29,6 @@ class ContactController extends Controller
        $data->subject= request('subject');
        $data->description= request('description');
        $data->save();
-       return view('contactus');
-
+       return redirect('hyperteam/');
    }
 }

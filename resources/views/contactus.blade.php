@@ -40,7 +40,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
-                                    <div class="book_btn d-none d-lg-block">
+                                    <div class="book_btn d-none d-lg-block" id="navigation">
                                         <a  href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
                                     </div>
                                 </div>
@@ -108,6 +108,7 @@
             </form>
           </div>
         </div>
+        </div>
 
 
         
@@ -122,7 +123,7 @@
         </ul>
     </div>
 
-    <div class="footer-menu-one">
+    <div class="footer-menu-one" id="navigation">
        <ul>
           <li><a href="http://localhost/hyper_team/public/hyperteam">Home</a></li>
           <li><a href="">Protfolio</a></li>
@@ -130,7 +131,7 @@
        </ul>
     </div>
  
-    <div class="footer-menu-two">
+    <div class="footer-menu-two" id="navigation">
        <ul>
           <li><a href="">Services</a></li>
           <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact Us</a></li>
@@ -138,7 +139,7 @@
     </div>
 
 </div>
-<div class="footer-bottom">
+<div class="footer-bottom" id="navigation">
 <p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam">Hyper Team</a></p>
 </div>
 <!-- Footer End -->

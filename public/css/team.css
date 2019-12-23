@@ -19,61 +19,6 @@ body {
     overflow-x: hidden;
 }
 
-
-/* text slide start */
-
-.wrapper {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.wrapper h1 {
-    padding: 0;
-    margin: 0;
-    color: black;
-    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
-    font-size: 60px;
-}
-
-.wrapper h1 {
-    color: black;
-    padding: 0;
-    margin: 0;
-    text-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
-    font-size: 100px;
-}
-
-.change:before {
-    content: '';
-    animation: animate infinite 10s;
-}
-
-@keyframes animate {
-    0% {
-        content: 'Web Developers';
-    }
-    20% {
-        content: 'Web Designers';
-    }
-    40% {
-        content: 'Photographer';
-    }
-    60% {
-        content: 'Marketer';
-    }
-    80% {
-        content: 'Architect';
-    }
-    100% {
-        content: 'Freelancer';
-    }
-}
-
-
-/* text sliide end */
-
 .a {
     margin-top: -16px;
     width: 100%;
@@ -94,6 +39,16 @@ body {
     padding: 25px 0;
 }
 
+.pro {
+    margin-top: 0px;
+    color: #e9b422;
+    font-size: 60px;
+    font-family: montserrat;
+    text-align: center;
+    background-color: #272727;
+    padding: 25px 0;
+}
+
 .b {
     max-width: 100%;
     width: 100%;
@@ -102,10 +57,10 @@ body {
 
 .cycle-slideshow {
     width: 100%;
-    max-width: 900px;
+    max-width: 850px;
     display: block;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     margin: 20px auto;
     border: 5px solid grey;
 }
@@ -328,7 +283,7 @@ section {
     font-family: montserrat;
     text-align: center;
     background-color: #272727;
-    padding: 40px 0;
+    padding: 25px 0;
 }
 
 .service-box {
@@ -421,7 +376,7 @@ section {
 .border {
     width: 150px;
     height: 5px;
-    background: #e74c3c;
+    background: #e9b422;
     margin: 40px auto;
     margin-top: 20px;
 }
@@ -447,9 +402,9 @@ section {
 
 .about a {
     display: inline-block;
-    color: #e74c3c;
+    color: black;
     text-decoration: none;
-    border: 2px solid #e74c3c;
+    border: 2px solid #e9b422;
     border-radius: 24px;
     padding: 8px 40px;
     transition: 0.4s linear;
@@ -457,7 +412,7 @@ section {
 
 .about a:hover {
     color: #fff;
-    background: #e74c3c;
+    background: #e9b422;
 }
 
 .skills {
@@ -477,7 +432,7 @@ section {
 
 .progress-bar {
     height: 12px;
-    background: #e74c3c !important;
+    background: #e9b422 !important;
     border-radius: 12px;
 }
 
@@ -568,7 +523,7 @@ section {
 }
 
 .footer-social-icons ul li:hover {
-    background: #e74c3c;
+    background: #e9b422;
 }
 
 .footer-social-icons ul li a:hover {
@@ -603,7 +558,7 @@ section {
 }
 
 .footer-menu-one ul li a:hover {
-    color: #e74c3c;
+    color: #e9b422;
 }
 
 .footer-menu-two {
@@ -634,14 +589,14 @@ section {
 }
 
 .footer-menu-two ul li a:hover {
-    color: #e74c3c;
+    color: #e9b422;
 }
 
 .footer-bottom {
     width: 100%;
     height: auto;
     margin: auto;
-    background: #e74c3c;
+    background: #e9b422;
     padding: 15px 0;
 }
 
@@ -667,8 +622,12 @@ section {
     font-size: 50px;
     margin-top: 10px;
     margin-left: -10px;
-    
 }
 
 
 /* footer end */
+
+#navigation li a,
+#navigation a {
+    text-decoration: none;
+}
