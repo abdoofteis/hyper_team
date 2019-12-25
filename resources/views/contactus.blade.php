@@ -19,7 +19,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="http://localhost/hyper_team/public/hyperteam">
+                                    <a href="{{ route('home') }}">
                                         <img src="{{asset('img/logo1.png')}}" alt="Hypeer Team">
                                     </a>
                                 </div>
@@ -28,12 +28,12 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="http://localhost/hyper_team/public/hyperteam">Home</a></li>
-                                            <li><a href="#">Protfolio <i class="ti-angle-down"></i></a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">About Us <i class="ti-angle-down"></i></a>
+                                            <li><a href="{{ route('home') }}">Home</a></li>
+                                            <li><a href="{{ route('home') }}#protfolio">Protfolio <i class="ti-angle-down"></i></a></li>
+                                            <li><a href="{{ route('home') }}#service">Services</a></li>
+                                            <li><a href="{{ route('home') }}#about">About Us <i class="ti-angle-down"></i></a>
                                             </li>
-                                            <li><a class="active" href="http://localhost/hyper_team/public/hyperteam/contactus">Contact</a></li>
+                                            <li><a class="active" href="{{ route('home') }}#team">Team</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -41,7 +41,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="book_btn d-none d-lg-block" id="navigation">
-                                        <a  href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
+                                        <a  href="{{ route('contactus') }}">CONTACT US</a>
                                     </div>
                                 </div>
                             </div>
@@ -125,22 +125,22 @@
 
     <div class="footer-menu-one" id="navigation">
        <ul>
-          <li><a href="http://localhost/hyper_team/public/hyperteam">Home</a></li>
-          <li><a href="">Protfolio</a></li>
-          <li><a href="">Our Team</a></li>
+          <li><a href="{{ route('home') }}">Home</a></li>
+          <li><a href="{{ route('home') }}#protfolio">Protfolio</a></li>
+          <li><a href="{{ route('home') }}#team">Our Team</a></li>
        </ul>
     </div>
  
     <div class="footer-menu-two" id="navigation">
        <ul>
           <li><a href="">Services</a></li>
-          <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact Us</a></li>
+          <li><a href="{{ route('contactus') }}">Contact Us</a></li>
        </ul>
     </div>
 
 </div>
 <div class="footer-bottom" id="navigation">
-<p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam">Hyper Team</a></p>
+<p>Designed by:<a href="{{ route('home') }}">Hyper Team</a></p>
 </div>
 <!-- Footer End -->
 

@@ -26,7 +26,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="http://localhost/hyper_team/public/hyperteam">
+                                    <a href="{{ route('home') }}">
                                         <img src="img/logo1.png" alt="Hyper Team">
                                     </a>
                                 </div>
@@ -35,12 +35,12 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="http://localhost/hyper_team/public/hyperteam#">Home</a></li>
-                                            <li><a href="#">Protfolio <i class="ti-angle-down"></i></a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">About Us <i class="ti-angle-down"></i></a>
+                                            <li><a class="active" href="{{ route('home') }}">Home</a></li>
+                                            <li><a href="{{ route('home') }}#protfolio">Protfolio <i class="ti-angle-down"></i></a></li>
+                                            <li><a href="{{ route('home') }}#service">Services</a></li>
+                                            <li><a href="{{ route('home') }}#about">About Us <i class="ti-angle-down"></i></a>
                                             </li>
-                                            <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact</a></li>
+                                            <li><a href="{{ route('home') }}#team">Team</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -48,7 +48,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="book_btn d-none d-lg-block" id="navigation">
-                                        <a  href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
+                                        <a  href="{{ route('contactus') }}">CONTACT US</a>
                                     </div>
                                 </div>
                             </div>
@@ -92,6 +92,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
    <!-- header end -->
 
       <!-- protfolio div start -->
+      <a name="protfolio"></a>
        <h1 class="pro"><b>PROTFOLIO</b></h1>
       <!-- slide start -->
    <div class="cycle-slideshow pb-2"
@@ -110,6 +111,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
 <!-- slide end -->
 <!-- end protfolio -->
 <!-- services start -->
+<a name="service"></a>
      <h1 class="ser" style="color:#e9b422;"><b>OUR SERVICES</b></h1>
       <div class="container">
          <div class="row">
@@ -151,6 +153,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
 <!-- Our Team start -->
 <br></br>
   <section>
+     <a name="team"></a>
          <h1 class="prot"><b>OUR TEAM</b></h1>
            <div class="card-wrapper">
             <div class="card">
@@ -209,6 +212,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
   </section>
 <!-- Our Team End -->
 <!-- About Us Start -->
+<a name="about"></a>
       <div class="about-section">
          <div class="inner-width">
             <h1><b>ABOUT US</b></h1>
@@ -218,7 +222,7 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
                   <div class="about" id="navigation">
                      <p>our team member student at university of tripoli we study together & word together our team is the best at web.
                      </p>
-                     <a href="http://localhost/hyper_team/public/hyperteam/contactus">CONTACT US</a>
+                     <a href="{{ route('contactus') }}">CONTACT US</a>
                   </div>
                </div>
                <div class="about-section-col">
@@ -263,22 +267,22 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
 
            <div class="footer-menu-one" id="navigation">
               <ul>
-                 <li><a href="http://localhost/hyper_team/public/hyperteam#">Home</a></li>
-                 <li><a href="">Protfolio</a></li>
-                 <li><a href="">Our Team</a></li>
+                 <li><a href="{{ route('home') }}">Home</a></li>
+                 <li><a href="{{ route('home') }}#protfolio">Protfolio</a></li>
+                 <li><a href="{{ route('home') }}#team">Our Team</a></li>
               </ul>
            </div>
         
            <div class="footer-menu-two" id="navigation">
               <ul>
                  <li><a href="">Services</a></li>
-                 <li><a href="http://localhost/hyper_team/public/hyperteam/contactus">Contact Us</a></li>
+                 <li><a href="{{ route('contactus') }}">Contact Us</a></li>
               </ul>
            </div>
 
     </div>
     <div class="footer-bottom" id="navigation">
-       <p>Designed by:<a href="http://localhost/hyper_team/public/hyperteam#">Hyper Team</a></p>
+       <p>Designed by:<a href="{{ route('home') }}">Hyper Team</a></p>
     </div>
  <!-- Footer End -->
  <!-- {{ asset('js/jqurey*3.4.1.min.js') }} -->
