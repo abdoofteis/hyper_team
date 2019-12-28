@@ -31,9 +31,8 @@
                                             <li><a href="{{ route('home') }}">Home</a></li>
                                             <li><a href="{{ route('home') }}#protfolio">Protfolio <i class="ti-angle-down"></i></a></li>
                                             <li><a href="{{ route('home') }}#service">Services</a></li>
-                                            <li><a href="{{ route('home') }}#about">About Us <i class="ti-angle-down"></i></a>
-                                            </li>
-                                            <li><a class="active" href="{{ route('home') }}#team">Team</a></li>
+                                            <li><a href="{{ route('home') }}#team">Team</a></li>
+                                            <li><a href="{{ route('home') }}#about">About Us <i class="ti-angle-down"></i></a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -41,7 +40,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="book_btn d-none d-lg-block" id="navigation">
-                                        <a  href="{{ route('contactus') }}">CONTACT US</a>
+                                        <a class="active" href="{{ route('contactus') }}">CONTACT US</a>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +57,7 @@
     <!-- header-end -->
 
 
-
+<section>
     <div class="wrapper" style ="background-image: url('{{ asset('img/bg.jpg') }}');">
         <div class="content">
             
@@ -67,6 +66,16 @@
         </div>
         <div class="container mb-5 ">
                
+            @if ($errors->count())
+        <div class="alert alert-danger col-lg-7 col-md-9 col-sm-12" style="background: linear-gradient(red, transparent); margin-left: 185px;">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li style="color: white;">{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
             <form action="{{ url('/contactus') }}" method="post">
             <!--  -->
                 @csrf
@@ -101,15 +110,14 @@
           <textarea class="col-lg-7 col-md-9 col-sm-12 form-control" rows="3"placeholder="Your Message" name="description"></textarea>
         </div>
               
-                <!-- <div class="btn" type="submit">Send</div> -->
                 <input type="submit" class="btn" value="Send">
             </div>
               
             </form>
           </div>
         </div>
-        </div>
-
+     </div>
+</section>
 
         
  <!-- Footer Start -->

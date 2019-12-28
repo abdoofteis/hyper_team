@@ -38,9 +38,8 @@
                                             <li><a class="active" href="{{ route('home') }}">Home</a></li>
                                             <li><a href="{{ route('home') }}#protfolio">Protfolio <i class="ti-angle-down"></i></a></li>
                                             <li><a href="{{ route('home') }}#service">Services</a></li>
-                                            <li><a href="{{ route('home') }}#about">About Us <i class="ti-angle-down"></i></a>
-                                            </li>
                                             <li><a href="{{ route('home') }}#team">Team</a></li>
+                                            <li><a href="{{ route('home') }}#about">About Us <i class="ti-angle-down"></i></a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -133,8 +132,8 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
             </div>
             <div class="col-md-3 col-sm-6">
                <div class="service-box">
-                  <i class="fa fa-edit"></i>
-                  <h4 class="title">SEO</h4>
+                  <i class="fa fa-android "></i>
+                  <h4 class="title">Mobile Development</h4>
                   <p class="description">
                      Hello Hyper Team With You We Can Help You For Any Design You Want Just Contact With Us</p>
                </div>

@@ -18,7 +18,7 @@ class CreateUserfteisTable extends Migration
             $table->string('name');
             $table->text('email');
             $table->integer('phone_number');
-            $table->text('subject');
+            $table->text('subject')->nullable();
             $table->longText('description')->nullable();
             $table->timestamps();
             
