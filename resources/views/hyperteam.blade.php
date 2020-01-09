@@ -68,20 +68,64 @@
         <div class="slider_active owl-carousel">
             <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 130px;
 color: #e9b422;
-margin-left: -90px; margin-top: -70px;">Hello</h1><h1 class="text-slide2 col-12">Welcome To Our WebSite...</h1></p></div></div>
+margin-left: -90px; margin-top: -70px;">Hello
+<div class="spinner-grow text-warning mb-5" style="width: 50px; height: 50px;" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+</h1><h1 class="text-slide2 col-12">Welcome To Our WebSite
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+</h1></p></div></div>
 
             <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 100px;
 color: #e9b422;
-margin-left: -90px; margin-top: -70px;">We Are <h1 class="text-slide2 col-12">Web Developers...</h1></h1></div></div>
+margin-left: -90px; margin-top: -70px;">We Are <h1 class="text-slide2 col-12">Web Developers
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+</h1></h1></div></div>
 
             <div class="single_slider  d-flex align-items-center slider_bg_3 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 150px;
 color: #e9b422;
 margin-left: -90px; margin-top: -70px;">& <h1 style="color: white;
-font-size: 50px;margin-top: 10px;margin-left: -10px;">Web Designers...</h1></h1></div></div>
+font-size: 50px;margin-top: 10px;margin-left: -10px;">Web Designers
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+</h1></h1></div></div>
 
             <div class="single_slider  d-flex align-items-center slider_bg_4 overlay2"><div class="col-md-12 col-sm-12 text-center ftco-animate mt-5"><h1 style="font-size: 80px;
 color: #e9b422;
-margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slide2">To Serve You...</h1></h1></div></div>
+margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slide2">To Serve You
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light mb-3 mr-3" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+</h1></h1></div></div>
 
            
         </div>
@@ -227,21 +271,21 @@ margin-left: -10px; margin-top: -70px;">We Are Always Ready <h1 class="text-slid
                <div class="about-section-col">
                   <div class="skills">
                      <div class="skills">
-                        <div class="title">Web Design</div>
+                        <div class="title">Web Development</div>
                         <div class="progress">
                            <div class="progress-bar p1"><span>90%</span></div>
                         </div>
                      </div>
 
                      <div class="skills">
-                        <div class="title">UI Design</div>
+                        <div class="title">Web Design</div>
                         <div class="progress">
                            <div class="progress-bar p2"><span>70%</span></div>
                         </div>
                      </div>
 
                      <div class="skills">
-                        <div class="title">UX Design</div>
+                        <div class="title">Mobile Development</div>
                         <div class="progress">
                            <div class="progress-bar p3"><span>50%</span></div>
                         </div>
